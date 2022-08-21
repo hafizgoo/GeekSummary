@@ -8,6 +8,7 @@
 
 <p align="left">	分别用 100 个字以上的一段话，加上一幅图 (架构图或脑图)，总结自己
 对下列技术的关键点思考和经验认识:</p>
+
 1) JVM
 <p align="left">	
 &ensp;&ensp;jvm是一个抽象的计算模型，通过加载编译的Java字节码，提供了跨平台的功能。jvm内部的分类主要有程序计数器、Java虚拟机栈、本地方法栈、java堆、方法区以及直接内存等，堆内部的分类还要看具体的垃圾回收器。</p>
@@ -33,8 +34,8 @@
 
 4) Spring 和 ORM 等框架
 <p align="left">	
-&ensp;&ensp;spring是Java语言中最流行的框架，主要是应用了IOC和AOP。所有的bean都有spring容器去管理。后面spring逐渐发展了很多模块，例如spring mvc，spring security等。后面springboot出来以后衍生出了spring cloud为基础的一套微服务全家桶，全面拥抱微服务。
-
+&ensp;&ensp;spring是Java语言中最流行的框架，主要是应用了IOC和AOP。所有的bean都有spring容器去管理。后面spring逐渐发展了很多模块，例如spring mvc，spring security等。后面springboot出来以后衍生出了spring cloud为基础的一套微服务全家桶，全面拥抱微服务。</p>
+<p align="left">	
 &ensp;&ensp;ORM框架的话主要有hibernate和mybatis，优缺点的话各自都有。mybatis主要是sql自定义，对dba等人比较友好，容易把控。hibernate与数据库的交互上有HQL语言和一些定义好的接口，对dba不是很友好，但是可以在数据库类型切换的时候比mybatis有优势。
 </p>
 
